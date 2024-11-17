@@ -1,4 +1,4 @@
-bottle==0.12.19
-tensorflow==2.11.0  # Or whatever version of TensorFlow you're using
-Pillow==9.0.1  # For image handling
-numpy==1.23.3  # For numerical operations
+bottle
+tensorflow  # Or whatever version of TensorFlow you're using
+Pillow  # For image handling
+numpy  # For numerical operations
