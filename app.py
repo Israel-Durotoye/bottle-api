@@ -4,6 +4,13 @@ import numpy as np
 from PIL import Image
 import io
 
+import gdown
+
+# Replace with your file's shared link
+url = "https://drive.google.com/file/d/1fnQOvlcQ3hjs7SPJJrf8EnKiui_Ukthu/view?usp=drive_link"
+output = "pest_classification_model.h5"
+gdown.download(url, output, quiet=False)
+
 # Initialize the Bottle app
 app = Bottle()
 
