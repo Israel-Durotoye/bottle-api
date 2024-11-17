@@ -45,5 +45,5 @@ def predict():
         return {"error": str(e)}
 
 # Run the Bottle app
-run(app, host="127.0.0.1", port=8080)  # Change port to 8001 if 8000 is in use
+run(app, host="0.0.0.0", port=10000) 
 
