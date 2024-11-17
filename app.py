@@ -7,7 +7,7 @@ import io
 import gdown
 
 # Replace with your file's shared link
-url = "https://drive.google.com/file/d/1fnQOvlcQ3hjs7SPJJrf8EnKiui_Ukthu/view?usp=drive_link"
+url = "https://drive.google.com/uc?export=download&id=1fnQOvlcQ3hjs7SPJJrf8EnKiui_Ukthu"
 output = "pest_classification_model.h5"
 gdown.download(url, output, quiet=False)
 
